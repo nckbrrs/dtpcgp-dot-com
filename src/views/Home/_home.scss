@@ -3,28 +3,24 @@
     min-width: 100vw;
     height: 100%;
 
-    #container1 {
-        height: 100vh;
+    #no-container {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
 
-        #container2 {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-
-            #no {
-                font-family: Helvetica;
-                text-transform: lowercase;
-                font-weight: 700;
-                font-size: 11em;
-                color: #212121;
-            }
+        #no {
+            font-family: Helvetica;
+            text-transform: lowercase;
+            font-weight: 700;
+            font-size: 11em;
+            color: #212121;
         }
     }
 
-    #container3 {
+    #source-container {
         margin: 0;
         position: absolute;
         top: 90%;

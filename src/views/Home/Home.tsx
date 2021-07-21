@@ -5,14 +5,12 @@ class Home extends React.Component {
     render() {
         return (
             <div id="home" className="bx--grid bx--grid--full-width">
-                <div id="container1">
-                    <div id="container2">
-                        <p id="no">
-                            NO
-                        </p>
-                    </div>
+                <div id="no-container">
+                    <p id="no">
+                        NO
+                    </p>
                 </div>
-                <div id="container3">
+                <div id="source-container">
                     <a id="source" href="https://www.eia.gov/energyexplained/oil-and-petroleum-products/prices-and-outlook.php">
                         source
                     </a>
