@@ -1,1 +1,12 @@
 @import "./views/Home/home.scss";
+
+@keyframes moveInCircle {
+    0%, 100%   {transform: translate(calc(var(--moveInCircleSize) * -1px), calc(var(--moveInCircleSize) * 1px));}
+    13%  {transform: translate(calc(var(--moveInCircleSize) * -1.5px), calc(var(--moveInCircleSize) * 0px));}
+    25%  {transform: translate(calc(var(--moveInCircleSize) * -1px), calc(var(--moveInCircleSize) * -1px));}
+    38%  {transform: translate(calc(var(--moveInCircleSize) * 0px), calc(var(--moveInCircleSize) * -1.5px));}
+    50%  {transform: translate(calc(var(--moveInCircleSize) * 1px), calc(var(--moveInCircleSize) * -1px));}
+    63%  {transform: translate(calc(var(--moveInCircleSize) * 1.5px), calc(var(--moveInCircleSize) * 0px));}
+    75%  {transform: translate(calc(var(--moveInCircleSize) * 1px), calc(var(--moveInCircleSize) * 1px));}
+    88%  {transform: translate(calc(var(--moveInCircleSize) * 0px), calc(var(--moveInCircleSize) * 1.5px));}
+}

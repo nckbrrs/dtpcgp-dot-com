@@ -6,7 +6,7 @@ class Home extends React.Component {
         return (
             <div id="home" className="bx--grid bx--grid--full-width">
                 <div id="no-container">
-                    <p id="no">
+                    <p id="no" data-content="NO">
                         NO
                     </p>
                 </div>

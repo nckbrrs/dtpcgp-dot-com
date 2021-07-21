@@ -16,7 +16,28 @@
             text-transform: lowercase;
             font-weight: 700;
             font-size: 11em;
-            color: #212121;
+            color: #2e85ff;
+
+            z-index: 1;
+            --moveInCircleSize: 3;
+
+            &:before, &:after {
+                content:attr(data-content);
+                position: absolute;
+                top: 0; left: 0; right: 0; bottom: 0;
+            }
+        
+            &:before {
+                color: #00ffaa;
+                z-index: -1;
+                animation: moveInCircle 2.75s linear infinite;
+            }
+        
+            &:after {
+                color: #ff6622;
+                z-index: -2;
+                animation: moveInCircle 3s linear infinite;
+            }
         }
     }
 
